@@ -37,7 +37,7 @@ class _MainScreenState extends State<MainScreen> {
   var _scaffoldKey = new GlobalKey<ScaffoldState>();
   @override
   void initState(){
-    final String serverToken = 'AAAAG-YmyZ4:APA91bGQx3OPlRyxQCD9SOhqEW6a4c6Zyiaw3PpuIrbR-8dN1f8Y06T4sSgFekUy0_v5s3GTWpS5AqeBLhdG8hcmgT3MX1HNPbIlAsjg9sl9zs_AUwabWlric-Q08i8LC9XyWyw6dNrp';
+    final String serverToken = '***********************';
     super.initState();
     _messaging.getToken().then((token){
        _switchbutton(token);
@@ -232,7 +232,7 @@ Future<FirebaseUser> getFirebaseUser() async {
     Coordinates corde= await _database(context,forcontacts: true);
     double lat=corde.latitude;
     double long=corde.longitude;
-    final String url='https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=$lat,$long&rankby=distance&type=$type&keyword=$text&key=AIzaSyCyyktLxDUe06OvQNGWgZrplyltZYCyuE0';
+    final String url='https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=$lat,$long&rankby=distance&type=$type&keyword=$text&key=*******';
     print(url);
     var response = await http.get(url, headers: {"Accept": "application/json"});
     print(response.body);
@@ -242,7 +242,7 @@ Future<FirebaseUser> getFirebaseUser() async {
       print(data);
     String place_id=data[0]["place_id"];
       final String detailUrl =
-      "https://maps.googleapis.com/maps/api/place/details/json?placeid=$place_id&fields=name,formatted_phone_number&key=AIzaSyCyyktLxDUe06OvQNGWgZrplyltZYCyuE0";
+      "https://maps.googleapis.com/maps/api/place/details/json?placeid=$place_id&fields=name,formatted_phone_number&key=******************";
       var response2 = await http.get(detailUrl, headers: {"Accept": "application/json"});
       print("-------Second Part------");
       print(response2.body);

@@ -1,10 +1,11 @@
-# myapp
+# Sahayata
 
-A new Flutter project.
+A helping app
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project uses several APIs in order to ask for help with people nearby or contact your local authorities.
+
 
 A few resources to get you started if this is your first Flutter project:
 

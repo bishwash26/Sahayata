@@ -34,7 +34,7 @@ class _SendAlertState extends State<SendAert> {
    bool isSent=false;
    final Coordinates cord;
    final FirebaseMessaging _messaging=FirebaseMessaging();
-   final String serverToken = 'AAAAG-YmyZ4:APA91bGQx3OPlRyxQCD9SOhqEW6a4c6Zyiaw3PpuIrbR-8dN1f8Y06T4sSgFekUy0_v5s3GTWpS5AqeBLhdG8hcmgT3MX1HNPbIlAsjg9sl9zs_AUwabWlric-Q08i8LC9XyWyw6dNrp';
+   final String serverToken = '*************************************************************';
 final FirebaseMessaging firebaseMessaging = FirebaseMessaging();
    _SendAlertState(this.cord);
     bool sitiosToggle = false;

@@ -40,7 +40,7 @@ Completer<GoogleMapController> _controller = Completer();
         Set<Polyline> _polylines = {};
     List<LatLng> polylineCoordinates = [];
     PolylinePoints polylinePoints = PolylinePoints();
-    String googleAPIKey = "AIzaSyD9Gld4tITny9pEKjKHVY2sSDTscUbPI48";
+    String googleAPIKey = "*************";
 
     @override
     void initState() {

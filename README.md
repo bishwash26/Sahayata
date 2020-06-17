@@ -4,7 +4,10 @@ A helping app
 
 ## Getting Started
 
-This project uses several APIs in order to ask for help with people nearby or contact your local authorities.
+This project uses several APIs in order to ask for help with people nearby or contact your local authorities.There are three major features:
+1) Sending an SOS messege to people nearby you.
+2) To contacts button that would send the message to your contacts about your location.
+3) Contacting to the nearest authority.
 
 
 A few resources to get you started if this is your first Flutter project:

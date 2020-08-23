@@ -9,7 +9,7 @@ This project uses several APIs in order to ask for help with people nearby or co
 2) To contacts button that would send the message to your contacts about your location.
 3) Contacting to the nearest authority.
 Following is the screenshot of home page. 
-![Image of the image][https://github.com/bishwash26/Sahayata/blob/master/Screenshot_2020-05-26-16-39-56-763_com.example.myapp.jpg]
+![Homepage](https://github.com/bishwash26/Sahayata/blob/master/Screenshot_2020-05-26-16-39-56-763_com.example.myapp.jpg)
 
 A few resources to get you started if this is your first Flutter project:
 
